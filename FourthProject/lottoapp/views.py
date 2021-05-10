@@ -9,6 +9,8 @@ def result(request) :
     list = ('이민정','김서영','김정운','노은성',
     '김소은','문다연','박혜준','안현주',
     '김유진','장한빛','조원아','황서경',
-    '오예림','강연우','박경나','이연수')
+    '오예림','강연우','박경나','이연수',
+    '강윤서','박도윤','송주연','유수화',
+    '윤정인','전수현','최진영')
     partner = random.sample(list,2)
     return render(request, 'lottoapp/result.html', {'partner':partner})
